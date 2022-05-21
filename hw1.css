@@ -1,0 +1,139 @@
+header {
+	background-image: url("Images/flywheel.jpg");
+	background-color: #a9a9a9;
+	height: 20%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 5px;
+	margin: 1%;
+	margin-bottom: 0;
+	font-variant: small-caps;
+}
+nav a {
+	display: inline-block;
+	background-color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0.6;
+	width: 15%;
+	height: 30px;
+	margin: 4%;
+	padding-top: 15px;
+	border-radius: 5%;
+}
+.active {
+	opacity: 1;
+	background-color: #aaff55;
+}
+nav a:link {
+	background-color: none;
+}
+nav a:visited {
+	background-color: none;
+}
+nav a:hover {
+	background-color: #ffff55;
+}
+nav a:active {
+	background-color: #ff9955;
+	opacity: 1;
+}
+.active a{
+	background-color: #ffffff;
+}
+body {
+	margin: 1%;
+	padding: 15px;
+
+}
+.left {
+	height: 550px;
+	width: 15%;
+	display: inline-block;
+	border: 2px;
+	background-color: brown;
+	margin-left: 1%;
+	margin-top: 0;
+	postion: absolute;
+	bottom: 500px;
+}
+.left img {
+	display: block;
+	border: 5%, solid;
+	margin: 10%;
+	margin-top: 25%;
+	height: 100px;
+	width: 150px;
+	border: 2px;
+	position: relative;
+	left: 15px;
+}
+.right {
+	display: inline-block;
+	margin: 2%;
+	height: 70%;
+	width: 60%;
+	background-color: none;
+	border: 2px;
+	position: absolute;
+
+}
+.active a {
+	background-color: #ffffff;
+}
+h1 {
+	color: #ffffff;
+	font-variant: small-caps;
+	text-align: center;
+}
+h2 {
+	color: black;
+	font-variant: small-caps;
+}
+
+a {
+	font-family: arial, "times new roman", impact;
+}
+table {
+	color:#06425C;
+	margin-left: 10%;
+	border-spacing: 2px;
+	border: none;
+	width: 750px;
+	height: 450px;
+	border-radius: 25px 25px 0 0;
+}
+
+
+th {
+	background-color: #44bb11;
+	color: #ffffff;
+	text-align: center;
+}
+tr {
+	background-color: #22f5aa;
+	color: #000;
+	opacity: 0.6;
+	text-align: center;
+}
+tr:hover {
+	background-color: #aaaa11;
+	opacity: 0.8;
+}
+th:nth-of-type(1) {
+	text-align: left;
+	padding-left: 10px;
+}
+th {
+	border-radius: 5px 5px 0 0;
+	border-bottom: 5px solid #284;
+}
+
+td:nth-of-type(1) {
+	text-align: left;
+	padding-left: 10px;
+}
+tr>th {
+	opacity: 1;
+}
